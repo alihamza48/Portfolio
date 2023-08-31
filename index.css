@@ -30,6 +30,22 @@ div.about {
   overflow: hidden;
 }
 
+div.about::before {
+  content: "";
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* opacity: 0.08; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* background:linear-gradient(45deg, black, gray); */
+}
+
 div.about video {
   position: absolute;
   top: 0;
@@ -108,7 +124,7 @@ li.btn:hover {
 }
 a {
   color: white;
-  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 1px rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -150,6 +166,22 @@ p {
 }
 
 /* Projects */
+
+div.projects::before {
+  content: "";
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* opacity: 0.08; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  z-index: -1;
+  /* background:linear-gradient(45deg, black, gray); */
+}
 
 div.projects video {
   position: absolute;
