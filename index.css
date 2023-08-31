@@ -1,0 +1,335 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+div.navbar {
+  margin: 0px;
+  padding: 5px;
+  background: linear-gradient(360deg, #313155, rgb(0, 0, 0));
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 3vh;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+/* img.logo{
+    height: 42px;
+    width: 200px;
+    margin-left: 30px;
+} */
+
+/* About */
+div.about {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+}
+
+div.about video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+div.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+}
+img.me {
+  height: 400px;
+  margin: 2px;
+  transition: transform 2s;
+  transform: scale(1.05);
+}
+
+h1.about,
+h3.about {
+  transition: transform 2s;
+  transform: scale(1.07);
+  text-shadow: 4px 3.5px black;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  color: white;
+}
+div.button {
+  display: flex;
+}
+button {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  text-shadow: 4px 3.5px black;
+  border: 2px outset white;
+  border-radius: 3px;
+  margin: 6px;
+  padding: 8px;
+  font-size: 2.5vh;
+  color: white;
+  background-color: transparent;
+}
+button:hover {
+  background: linear-gradient(110deg, rgb(7, 8, 94), black);
+}
+
+ul.btn {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+li.btn {
+  margin: 4px;
+  font-size: 4vh;
+  padding: 20px;
+
+  border: 4px solid white;
+  border-radius: 10px 2px;
+  background: transparent;
+}
+li.btn:hover {
+  padding: 25px;
+  background: linear-gradient(110deg, rgb(7, 8, 94), black);
+}
+a {
+  color: white;
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+/* Skills */
+div.skills {
+  background: linear-gradient(45deg, #00171f, #003459, #00171f);
+  margin: 0px;
+  padding: 2px;
+}
+div.skills h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline solid #fbfbfc;
+  text-shadow: 4px 2.4px 1px black;
+}
+
+ul.skill {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+li.skill {
+  margin: 15px 10px;
+  padding: 10px;
+}
+li.skill img {
+  margin-left: 43%;
+  height: 65px;
+  width: 65px;
+}
+li.skill h3,
+p {
+  color: white;
+  text-align: center;
+}
+
+/* Projects */
+
+div.projects video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+div.projects h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: underline solid white;
+  text-shadow: 4px 2.4px 1px black;
+  margin: 0;
+  padding: 15px 5px;
+}
+
+ul.project {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+li.project {
+  transition: box-shadow 0s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-top: 5px solid rgb(255, 255, 255);
+  border-bottom: 5px solid black;
+  border-radius: 20px;
+  margin: 15px 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 55vh;
+  width: 28vw;
+}
+li.project:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 0px 0px 90px rgb(185, 7, 185);
+}
+li.project img {
+  height: 30vh;
+  width: 25vw;
+  border-radius: 10px;
+}
+
+li.project h3,
+p {
+  margin: 10px 0px;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+/* Resume */
+div.resume {
+  height: 45vh;
+  margin: 0;
+  padding: 2px;
+  background: linear-gradient(45deg, #00171f, #003459, #00171f);
+}
+div.resume h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline solid #fbfbfc;
+  text-shadow: 4px 2.4px 1px black;
+}
+a.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+a.resume img {
+  height: 110px;
+  width: 100px;
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+a.resume img:hover {
+  /* background-color: white; */
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+}
+
+h3.resume {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  transition: none;
+}
+
+/* Contact */
+div.contact {
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  width: 98%;
+  height: 38vh;
+}
+div.contact::before {
+  content: "";
+  background-image: url("pic.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* background:linear-gradient(45deg, black, gray); */
+}
+
+div.contact h1 {
+  text-align: center;
+  color: black;
+  text-decoration: underline solid #696464;
+  margin: 0;
+  padding: 3px;
+  text-shadow: 1.5px 1px 1px rgb(173, 170, 170);
+}
+
+ul.contact {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+ul.contact li {
+  margin: 20px;
+}
+
+ul.contact li img {
+  height: 50px;
+  width: 50px;
+}
+ul.contact li img:hover {
+  height: 53px;
+  width: 53px;
+}
+h3.contact,
+h4.contact {
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  text-shadow: none;
+  transition: none;
+}
+h4.contact img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Foot */
+div.footer {
+  background-color: black;
+  margin: 0;
+  padding: 1px;
+}
+div.footer h5 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,755 @@
+@media (360px <= width <=400px) {
+  /* About */
+  div.about {
+    height: 80vh;
+  }
+  img.me {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+  }
+  h1.about {
+    font-size: 3vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    right: 10px;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 370px;
+  }
+  li.btn {
+    padding: 7px;
+    font-size: 2.5vh;
+  }
+
+  /* Skill */
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 35%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.5vh;
+  }
+  li.skill p {
+    font-size: 1.8vh;
+    margin: 0;
+    text-align: left;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 2px;
+  }
+  li.project img {
+    height: 16vh;
+    width: 16vh;
+  }
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 1.9vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 80px;
+    width: 70px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 32vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 35px;
+    width: 35px;
+  }
+  h3.contact {
+    font-size: 2vh;
+  }
+  h4.contact {
+    font-size: 1.9vh;
+  }
+  h4.contact img {
+    height: 15px;
+    width: 15px;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (401px <= width <= 500px) {
+  /* About */
+  div.about {
+    height: 80vh;
+  }
+  img.me {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+  }
+  h1.about {
+    font-size: 3vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    right: 25px;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 360px;
+    left: 35px;
+  }
+  li.btn {
+    padding: 10px;
+    font-size: 2.5vh;
+  }
+
+  /* Skill */
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 35%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.5vh;
+  }
+  li.skill p {
+    font-size: 1.8vh;
+    margin: 0;
+    text-align: left;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 2px;
+  }
+  li.project img {
+    height: 16vh;
+    width: 16vh;
+  }
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 1.9vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 80px;
+    width: 70px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 32vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 35px;
+    width: 35px;
+  }
+  h3.contact {
+    font-size: 2vh;
+  }
+  h4.contact {
+    font-size: 1.9vh;
+  }
+  h4.contact img {
+    height: 15px;
+    width: 15px;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (501px <= width <=580px) {
+  /* About */
+  div.about {
+    height: 80vh;
+  }
+  img.me {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+  }
+  h1.about {
+    font-size: 3vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    right: 25px;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 360px;
+    left: 60px;
+  }
+  li.btn {
+    padding: 10px;
+    font-size: 2.7vh;
+  }
+
+  /* Skill */
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 35%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.5vh;
+  }
+  li.skill p {
+    font-size: 1.8vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 2px;
+  }
+  li.project img {
+    height: 16vh;
+    width: 16vh;
+  }
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 1.9vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 80px;
+    width: 70px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 32vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 35px;
+    width: 35px;
+  }
+  h3.contact {
+    font-size: 2vh;
+  }
+  h4.contact {
+    font-size: 1.9vh;
+  }
+  h4.contact img {
+    height: 15px;
+    width: 15px;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (581px <= width <=630px) {
+  /* About */
+  div.about {
+    height: 65vh;
+  }
+  img.me {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+  }
+  h1.about {
+    font-size: 3vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    width: 55%;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 260px;
+    left: 60px;
+  }
+  li.btn {
+    padding: 12px;
+    font-size: 3.5vh;
+  }
+
+  /* Skill */
+  div.skills {
+    height: 75vh;
+  }
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 42%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.5vh;
+  }
+  li.skill p {
+    font-size: 1.8vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 6px;
+  }
+  li.project img {
+    height: 23vh;
+    width: 24vh;
+  }
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 2.2vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 80px;
+    width: 70px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 32vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 35px;
+    width: 35px;
+  }
+  h3.contact {
+    font-size: 2vh;
+  }
+  h4.contact {
+    font-size: 1.9vh;
+  }
+  h4.contact img {
+    height: 15px;
+    width: 15px;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (631px <= width <=720px) {
+  /* About */
+  div.about {
+    height: 65vh;
+  }
+  img.me {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 405px;
+  }
+  h1.about {
+    font-size: 3vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    width: 55%;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 260px;
+    left: 85px;
+  }
+  li.btn {
+    padding: 12px;
+  }
+
+  /* Skill */
+  div.skills {
+    height: 75vh;
+  }
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 43%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.5vh;
+  }
+  li.skill p {
+    font-size: 1.8vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 10px;
+  }
+
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 2.2vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 90px;
+    width: 80px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 36vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 44px;
+    width: 44px;
+  }
+  h3.contact {
+    font-size: 2.4vh;
+  }
+  h4.contact {
+    font-size: 2.3vh;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (721px <= width <=780px) {
+  /* About */
+  div.about {
+    height: 70vh;
+  }
+  img.me {
+    height: 260px;
+    position: absolute;
+    top: 20px;
+    left: 430px;
+  }
+  h1.about {
+    font-size: 4vh;
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2.4vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 55%;
+    text-align: center;
+  }
+  div.card {
+    position: absolute;
+    top: 315px;
+    left: 85px;
+  }
+  li.btn {
+    padding: 16px;
+  }
+
+  /* Skill */
+  div.skills {
+    height: 82vh;
+  }
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 43%;
+    height: 35px;
+    width: 35px;
+  }
+  li.skill h3 {
+    font-size: 2.8vh;
+  }
+  li.skill p {
+    font-size: 2.3vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Projects */
+  ul.projects {
+    width: 100%;
+  }
+  li.project {
+    margin: 5px 6px;
+    padding: 10px;
+  }
+
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 2.2vh;
+  }
+
+  /* Resume */
+  div.resume {
+    height: 40vh;
+  }
+  a.resume {
+    margin-top: 20px;
+  }
+  a.resume img {
+    height: 90px;
+    width: 80px;
+  }
+
+  /* Contact  */
+  div.contact {
+    height: 36vh;
+  }
+  ul.contact li {
+    margin: 12px 8px;
+  }
+  ul.contact li img {
+    height: 44px;
+    width: 44px;
+  }
+  h3.contact {
+    font-size: 2.4vh;
+  }
+  h4.contact {
+    font-size: 2.3vh;
+  }
+
+  /* Footer  */
+  div.footer h5 {
+    font-size: 1.9vh;
+  }
+}
+
+@media (781px <= width <=1000px) {
+  /* About */
+  div.about {
+    height: 75vh;
+  }
+  div.img {
+    margin: 20px 30px 20px 30px;
+  }
+  img.me {
+    height: 300px;
+  }
+  h1.about {
+    margin: 0;
+  }
+  h3.about {
+    font-size: 2.4vh;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  div.text {
+    text-align: center;
+  }
+
+  /* Skill */
+  div.skills {
+    height: 85vh;
+  }
+  li.skill {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  li.skill img {
+    margin-left: 43%;
+    height: 45px;
+    width: 45px;
+  }
+
+  /* Projects */
+
+  li.project {
+    margin: 10px 10px;
+  }
+
+  li.project h3 {
+    font-size: 2.4vh;
+  }
+  li.project p {
+    font-size: 2.2vh;
+  }
+}
+
+@media (1001px <= width <=1200px) {
+  /* About */
+  div.about {
+    height: 80vh;
+  }
+  div.img {
+    margin: 20px 20px 20px 20px;
+  }
+  img.me {
+    height: 350px;
+  }
+
+  div.text {
+    text-align: center;
+  }
+}
+@media (1201px <= width <=1440px) {
+  /* About */
+  div.text {
+    text-align: center;
+  }
+}
