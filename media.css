@@ -123,7 +123,10 @@
 @media (401px <= width <= 500px) {
   /* About */
   div.about {
-    height: 80vh;
+    height: 77vh;
+  }
+  button {
+    font-size: 2vh;
   }
   img.me {
     height: 270px;
@@ -151,20 +154,21 @@
     position: absolute;
     top: 560px;
     left: 6px;
+    margin-top: 5px;
   }
   ul.btn {
     padding: 0;
   }
   li.btn {
-    padding: 7px;
-    font-size: 2.5vh;
+    padding: 5px;
+    font-size: 2.4vh;
   }
 
   /* Skill */
   li.skill {
     margin: 5px 5px;
     padding: 5px;
-    height: 34vh;
+    height: 36vh;
   }
   li.skill img {
     margin-left: 35%;
@@ -189,14 +193,14 @@
     height: 45vh;
   }
   li.project img {
-    height: 15vh;
-    width: 13vh;
+    height: 13vh;
+    width: 11vh;
   }
   li.project h3 {
     font-size: 1.8vh;
   }
   li.project p {
-    font-size: 1.4vh;
+    font-size: 1.3vh;
   }
 
   /* Resume */
