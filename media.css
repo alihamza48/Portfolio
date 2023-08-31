@@ -15,8 +15,8 @@
   }
   h3.about {
     font-size: 2vh;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 2px;
+    margin-right: 12px;
   }
   div.text {
     position: absolute;
@@ -27,7 +27,11 @@
   }
   div.card {
     position: absolute;
-    top: 370px;
+    top: 395px;
+    left: 25px;
+  }
+  ul.btn {
+    padding: 0;
   }
   li.btn {
     padding: 7px;
@@ -35,7 +39,11 @@
   }
 
   /* Skill */
+  div.skills {
+    height: 75vh;
+  }
   li.skill {
+    height: 29vh;
     margin: 5px 5px;
     padding: 5px;
   }
@@ -48,9 +56,8 @@
     font-size: 2.5vh;
   }
   li.skill p {
-    font-size: 1.8vh;
+    font-size: 1.4vh;
     margin: 0;
-    text-align: left;
   }
 
   /* Projects */
@@ -59,17 +66,18 @@
   }
   li.project {
     margin: 5px 6px;
-    padding: 2px;
+    padding: 3px;
+    height: 45vh;
   }
   li.project img {
-    height: 16vh;
-    width: 16vh;
+    height: 15vh;
+    width: 15vh;
   }
   li.project h3 {
-    font-size: 2.4vh;
+    font-size: 1.8vh;
   }
   li.project p {
-    font-size: 1.9vh;
+    font-size: 1.5vh;
   }
 
   /* Resume */
@@ -118,10 +126,10 @@
     height: 80vh;
   }
   img.me {
-    height: 200px;
+    height: 270px;
     position: absolute;
     top: 20px;
-    left: 120px;
+    left: 68px;
   }
   h1.about {
     font-size: 3vh;
@@ -134,18 +142,21 @@
   }
   div.text {
     position: absolute;
-    top: 240px;
+    top: 340px;
     left: 20px;
     right: 25px;
     text-align: center;
   }
   div.card {
     position: absolute;
-    top: 360px;
-    left: 35px;
+    top: 560px;
+    left: 6px;
+  }
+  ul.btn {
+    padding: 0;
   }
   li.btn {
-    padding: 10px;
+    padding: 7px;
     font-size: 2.5vh;
   }
 
@@ -153,6 +164,7 @@
   li.skill {
     margin: 5px 5px;
     padding: 5px;
+    height: 34vh;
   }
   li.skill img {
     margin-left: 35%;
@@ -163,9 +175,8 @@
     font-size: 2.5vh;
   }
   li.skill p {
-    font-size: 1.8vh;
+    font-size: 1.4vh;
     margin: 0;
-    text-align: left;
   }
 
   /* Projects */
@@ -174,22 +185,23 @@
   }
   li.project {
     margin: 5px 6px;
-    padding: 2px;
+    padding: 4px;
+    height: 45vh;
   }
   li.project img {
-    height: 16vh;
-    width: 16vh;
+    height: 15vh;
+    width: 13vh;
   }
   li.project h3 {
-    font-size: 2.4vh;
+    font-size: 1.8vh;
   }
   li.project p {
-    font-size: 1.9vh;
+    font-size: 1.4vh;
   }
 
   /* Resume */
   div.resume {
-    height: 40vh;
+    height: 28vh;
   }
   a.resume {
     margin-top: 20px;
@@ -201,7 +213,7 @@
 
   /* Contact  */
   div.contact {
-    height: 32vh;
+    height: 28vh;
   }
   ul.contact li {
     margin: 12px 8px;
