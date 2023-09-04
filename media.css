@@ -25,17 +25,21 @@
     right: 10px;
     text-align: center;
   }
+  button {
+    font-size: 1.8vh;
+    padding: 7px;
+  }
   div.card {
     position: absolute;
-    top: 395px;
-    left: 25px;
+    top: 460px;
+    left: 10px;
   }
   ul.btn {
     padding: 0;
   }
   li.btn {
-    padding: 7px;
-    font-size: 2.5vh;
+    padding: 9px;
+    font-size: 2vh;
   }
 
   /* Skill */
@@ -767,5 +771,8 @@
   /* About */
   div.text {
     text-align: center;
+  }
+  h3.about {
+    padding: 0px 10px;
   }
 }
