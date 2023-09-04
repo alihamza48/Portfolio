@@ -39,7 +39,7 @@
   }
   li.btn {
     padding: 9px;
-    font-size: 2vh;
+    font-size: 1.8vh;
   }
 
   /* Skill */
@@ -71,7 +71,7 @@
   li.project {
     margin: 5px 6px;
     padding: 3px;
-    height: 42vh;
+    height: 36vh;
   }
   li.project img {
     height: 12vh;
