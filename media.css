@@ -1,7 +1,7 @@
 @media (360px <= width <=400px) {
   /* About */
   div.about {
-    height: 80vh;
+    height: 72vh;
   }
   img.me {
     height: 200px;
@@ -31,7 +31,7 @@
   }
   div.card {
     position: absolute;
-    top: 460px;
+    top: 440px;
     left: 10px;
   }
   ul.btn {
@@ -44,11 +44,11 @@
 
   /* Skill */
   div.skills {
-    height: 75vh;
+    height: 78vh;
   }
   li.skill {
-    height: 29vh;
-    margin: 5px 5px;
+    height: 31vh;
+    margin: 5px 0px;
     padding: 5px;
   }
   li.skill img {
@@ -57,7 +57,7 @@
     width: 35px;
   }
   li.skill h3 {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
   }
   li.skill p {
     font-size: 1.4vh;
@@ -71,22 +71,26 @@
   li.project {
     margin: 5px 6px;
     padding: 3px;
-    height: 45vh;
+    height: 42vh;
   }
   li.project img {
-    height: 15vh;
-    width: 15vh;
+    height: 12vh;
+    width: 12vh;
   }
   li.project h3 {
     font-size: 1.8vh;
+    margin-top: 10px;
+    margin-bottom: 2px;
   }
   li.project p {
-    font-size: 1.5vh;
+    font-size: 1.3vh;
+    margin-top: 10px;
+    margin-bottom: 2px;
   }
 
   /* Resume */
   div.resume {
-    height: 40vh;
+    height: 33vh;
   }
   a.resume {
     margin-top: 20px;
@@ -98,7 +102,7 @@
 
   /* Contact  */
   div.contact {
-    height: 32vh;
+    height: 30vh;
   }
   ul.contact li {
     margin: 12px 8px;
