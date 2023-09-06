@@ -1,7 +1,7 @@
 @media (360px <= width <=400px) {
   /* About */
   div.about {
-    height: 72vh;
+    height: 71vh;
   }
   img.me {
     height: 200px;
@@ -31,7 +31,7 @@
   }
   div.card {
     position: absolute;
-    top: 440px;
+    top: 430px;
     left: 20px;
   }
   ul.btn {
