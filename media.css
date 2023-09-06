@@ -7,7 +7,7 @@
     height: 200px;
     position: absolute;
     top: 20px;
-    left: 70px;
+    left: 78px;
   }
   h1.about {
     font-size: 3vh;
@@ -32,7 +32,7 @@
   div.card {
     position: absolute;
     top: 440px;
-    left: 10px;
+    left: 20px;
   }
   ul.btn {
     padding: 0;
